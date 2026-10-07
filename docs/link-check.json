@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://husseinabozina.github.io/app-showroom/",
+    "status": 200,
+    "bytes": 13580,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://husseinabozina.github.io/app-showroom/projects/myshop/",
+    "status": 200,
+    "bytes": 15393,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://husseinabozina.github.io/app-showroom/projects/brees/",
+    "status": 200,
+    "bytes": 9916,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://husseinabozina.github.io/app-showroom/projects/healthtrack/",
+    "status": 200,
+    "bytes": 9751,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "http://localhost:4181/assets/docs/Hussein_Abozina_CV.pdf",
+    "status": 200,
+    "bytes": 71996,
+    "type": "application/pdf",
+    "matchesSuppliedCV": true
+  }
+]

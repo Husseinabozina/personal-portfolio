@@ -2,10 +2,7 @@
   {
     "slug": "myshop",
     "name": "MyShop",
-    "category": [
-      "Commerce",
-      "التجارة الإلكترونية"
-    ],
+    "category": ["Commerce", "التجارة الإلكترونية"],
     "headline": [
       "A storefront with the whole journey in mind.",
       "تجربة تسوّق تهتم بكل خطوة."
@@ -18,19 +15,10 @@
       "Flutter product engineering · Firebase REST · Payment recovery",
       "تطوير Flutter · ربط Firebase REST · استعادة حالة الدفع"
     ],
-    "note": [
-      "Independent demo · Sandbox payments",
-      "مشروع مستقل · دفع تجريبي"
-    ],
+    "note": ["Independent demo · Sandbox payments", "مشروع مستقل · دفع تجريبي"],
     "screens": [
-      [
-        "assets/images/myshop/home.webp",
-        "MyShop storefront"
-      ],
-      [
-        "assets/images/myshop/product.webp",
-        "MyShop product details"
-      ]
+      ["assets/images/myshop/home.webp", "MyShop storefront"],
+      ["assets/images/myshop/product.webp", "MyShop product details"]
     ],
     "visible": true,
     "order": 1,
@@ -39,10 +27,7 @@
   {
     "slug": "brees",
     "name": "Brees",
-    "category": [
-      "Personal finance",
-      "التمويل الشخصي"
-    ],
+    "category": ["Personal finance", "التمويل الشخصي"],
     "headline": [
       "Everyday money, made easier to navigate.",
       "إدارة المال اليومي، بتجربة أوضح."
@@ -60,14 +45,8 @@
       "نموذج هندسي · التصميم المرجعي من Figma Community"
     ],
     "screens": [
-      [
-        "assets/images/brees/home_dashboard.webp",
-        "Brees finance dashboard"
-      ],
-      [
-        "assets/images/brees/budgets.webp",
-        "Brees active budgets"
-      ]
+      ["assets/images/brees/home_dashboard.webp", "Brees finance dashboard"],
+      ["assets/images/brees/budgets.webp", "Brees active budgets"]
     ],
     "visible": true,
     "order": 2,
@@ -76,10 +55,7 @@
   {
     "slug": "healthtrack",
     "name": "HealthTrack",
-    "category": [
-      "Healthcare",
-      "الرعاية الصحية"
-    ],
+    "category": ["Healthcare", "الرعاية الصحية"],
     "headline": [
       "Care, connected from discovery to appointment.",
       "رحلة رعاية مترابطة، من البحث للحجز."
