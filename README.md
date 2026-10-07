@@ -26,6 +26,14 @@ The old project URLs remain functional with the updated shared design; they do n
 
 ## Delivery and hosting
 
-This version is a separate local Git repository with incremental commits. It has no GitHub remote and is not published. The ready-to-open ZIP includes the source and built pages. To publish later, upload the website files to a static host or connect this repository to GitHub Pages. Do not include `.git` or internal review notes in a public upload. Set a canonical URL after choosing the real hosting URL; no fictitious domain is embedded.
+Live portfolio: https://hussein-abozina-portfolio.vercel.app/
+
+Repository: https://github.com/Husseinabozina/personal-portfolio
+
+Vercel project `hussein-abozina-portfolio` is connected to this repository, with `main` as the production branch. Push changes to `main` to publish an update to the same address. The included `vercel.json` runs `python3 scripts/publish.py`: it rebuilds the pages from content, runs the validation, and exports visitor-facing files to `dist`. Source content, scripts and review documents are excluded from the hosted output. Python is used only during the build; the deployed site has no backend, database or environment secrets.
+
+To work from another computer, clone the repository, edit the content or design, run `npm run build` and `npm test`, then commit and push. Confirm that the Vercel deployment succeeds before considering an update live. Direct project editing within the portfolio is not implemented; use the existing showroom manager for its own project catalog.
+
+The ready-to-open ZIP includes source and built pages. `.vercel`, `.git`, generated `dist` and local environment files should stay out of shared ZIP archives.
 
 The separate app-showroom repository and deployment were not modified by this work.
