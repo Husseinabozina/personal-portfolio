@@ -39,8 +39,8 @@
     if (!document.querySelector(".case-page"))
       document.title =
         language === "ar"
-          ? "حسين أبوزينة — مطور تطبيقات موبايل"
-          : "Hussein Abozina — Mobile App Developer";
+          ? "حسين أبوزينة — مهندس برمجيات موبايل | Flutter · iOS · Android"
+          : "Hussein Abozina — Mobile Software Engineer | Flutter · iOS · Android";
     try {
       localStorage.setItem("portfolio-language", language);
     } catch (_) {}

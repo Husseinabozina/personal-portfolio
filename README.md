@@ -1,6 +1,6 @@
 # Hussein Abozina — Personal Portfolio V7
 
-A portable English/Arabic personal portfolio, rebuilt from the supplied V6 archive. The personal site introduces Hussein, his experience and three selected projects. The separate [App Showroom](https://husseinabozina.github.io/app-showroom/) contains the full project stories and evidence.
+A portable English/Arabic personal portfolio, originally rebuilt from the supplied V6 archive. It positions Hussein as **Mobile Software Engineer | Flutter · iOS · Android**, with Flutter/Dart as his core specialization, hands-on native development and a disciplined AI-Augmented Engineering workflow. The separate [Apps & Projects Showcase](https://husseinabozina.github.io/app-showroom/) is the primary hero destination and contains the full project stories and evidence.
 
 ## Preview
 
@@ -14,7 +14,7 @@ Open `index.html` directly, or run `npm run dev` and visit http://localhost:4181
 - `scripts/build.py`: shared page template and bilingual profile/experience copy.
 - `assets/styles.css`: visual system, responsive layouts and RTL styling.
 - `assets/app.js`: language persistence, accessible mobile navigation and anchor focus.
-- `assets/docs/Hussein_Abozina_CV.pdf`: the supplied V2 PDF, unchanged.
+- `assets/docs/Hussein_Abozina_CV.pdf`: the supplied Master CV V3 PDF, unchanged. Download links include `?v=3` to refresh cached copies.
 
 After editing content, run `npm run build` then `npm test` (or `python3 scripts/build.py` and `python3 scripts/verify.py`). The resulting HTML is pre-rendered and can be hosted as static files. Essential content and links work without JavaScript. Language changes use local storage when available, with a safe fallback when storage is blocked.
 
