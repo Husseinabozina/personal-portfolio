@@ -1,31 +1,40 @@
-const reveals=[...document.querySelectorAll('.reveal')];
-const io=new IntersectionObserver(entries=>entries.forEach(e=>{
-  if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}
-}),{threshold:.08});
-reveals.forEach(el=>io.observe(el));
-
-const menuBtn=document.getElementById('menuBtn');
-const mobileMenu=document.getElementById('mobileMenu');
-menuBtn.addEventListener('click',()=>{
-  const open=mobileMenu.classList.toggle('open');
-  menuBtn.setAttribute('aria-expanded',String(open));
-  menuBtn.setAttribute('aria-label',open?'Close menu':'Open menu');
-  menuBtn.textContent=open?'×':'☰';
-});
-mobileMenu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{
-  mobileMenu.classList.remove('open');menuBtn.setAttribute('aria-expanded','false');menuBtn.textContent='☰'
-}));
-
-const langBtn=document.getElementById('langBtn');
-let lang='en';
-function applyLang(){
-  document.documentElement.lang=lang;
-  document.documentElement.dir=lang==='ar'?'rtl':'ltr';
-  document.body.dir=document.documentElement.dir;
-  langBtn.textContent=lang==='en'?'AR':'EN';
-  document.querySelectorAll('[data-en][data-ar]').forEach(el=>el.textContent=el.dataset[lang]);
-}
-langBtn.addEventListener('click',()=>{lang=lang==='en'?'ar':'en';applyLang()});
-
-
-// Case studies use dedicated shareable pages in V5.
+(() => {
+  'use strict';
+  const root = document.documentElement;
+  const languageButton = document.getElementById('language-button');
+  const menuButton = document.getElementById('menu-button');
+  const menu = document.getElementById('mobile-menu');
+  const mobileQuery = window.matchMedia('(max-width: 760px)');
+  let language = 'en';
+  try { if (localStorage.getItem('portfolio-language') === 'ar') language = 'ar'; } catch (_) {}
+  function menuLabel() { return language === 'ar' ? (menu.hidden ? 'افتح القائمة' : 'أغلق القائمة') : (menu.hidden ? 'Open menu' : 'Close menu'); }
+  function setMenu(open, restoreFocus = false) {
+    menu.hidden = !open;
+    menuButton.setAttribute('aria-expanded', String(open));
+    menuButton.setAttribute('aria-label', menuLabel());
+    if (restoreFocus) menuButton.focus();
+  }
+  function applyLanguage() {
+    root.lang = language;
+    root.dir = language === 'ar' ? 'rtl' : 'ltr';
+    document.querySelectorAll('[data-en][data-ar]').forEach(el => { el.textContent = el.dataset[language]; });
+    languageButton.textContent = language === 'ar' ? 'EN' : 'عربي';
+    languageButton.setAttribute('aria-label', language === 'ar' ? 'Switch to English' : 'Switch to Arabic');
+    menuButton.setAttribute('aria-label', menuLabel());
+    if (!document.querySelector('.case-page')) document.title = language === 'ar' ? 'حسين أبوزينة — مطور تطبيقات موبايل' : 'Hussein Abozina — Mobile App Developer';
+    try { localStorage.setItem('portfolio-language', language); } catch (_) {}
+  }
+  languageButton.hidden = false;
+  menuButton.hidden = !mobileQuery.matches;
+  applyLanguage();
+  languageButton.addEventListener('click', () => { language = language === 'en' ? 'ar' : 'en'; applyLanguage(); });
+  menuButton.addEventListener('click', () => setMenu(menu.hidden));
+  menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setMenu(false)));
+  document.addEventListener('keydown', event => { if (event.key === 'Escape' && !menu.hidden) setMenu(false, true); });
+  document.addEventListener('click', event => { if (!menu.hidden && !event.target.closest('.site-header')) setMenu(false); });
+  mobileQuery.addEventListener('change', event => { menuButton.hidden = !event.matches; setMenu(false); });
+  document.querySelectorAll('a[href^="#"]').forEach(a => a.addEventListener('click', () => {
+    const target = document.querySelector(a.getAttribute('href'));
+    if (target) { target.setAttribute('tabindex', '-1'); target.focus({preventScroll:true}); }
+  }));
+})();

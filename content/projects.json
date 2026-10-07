@@ -1,0 +1,113 @@
+[
+  {
+    "slug": "myshop",
+    "name": "MyShop",
+    "category": [
+      "Commerce",
+      "التجارة الإلكترونية"
+    ],
+    "headline": [
+      "A storefront with the whole journey in mind.",
+      "تجربة تسوّق تهتم بكل خطوة."
+    ],
+    "description": [
+      "Product discovery, saved baskets and addresses, through to sandbox checkout and order history.",
+      "من اكتشاف المنتجات والسلة والعناوين المحفوظة، إلى الدفع التجريبي وسجل الطلبات."
+    ],
+    "contribution": [
+      "Flutter product engineering · Firebase REST · Payment recovery",
+      "تطوير Flutter · ربط Firebase REST · استعادة حالة الدفع"
+    ],
+    "note": [
+      "Independent demo · Sandbox payments",
+      "مشروع مستقل · دفع تجريبي"
+    ],
+    "screens": [
+      [
+        "assets/images/myshop/home.webp",
+        "MyShop storefront"
+      ],
+      [
+        "assets/images/myshop/product.webp",
+        "MyShop product details"
+      ]
+    ],
+    "visible": true,
+    "order": 1,
+    "url": "https://husseinabozina.github.io/app-showroom/projects/myshop/"
+  },
+  {
+    "slug": "brees",
+    "name": "Brees",
+    "category": [
+      "Personal finance",
+      "التمويل الشخصي"
+    ],
+    "headline": [
+      "Everyday money, made easier to navigate.",
+      "إدارة المال اليومي، بتجربة أوضح."
+    ],
+    "description": [
+      "Accounts, transactions, budgets and insights connected in one Flutter experience, with automated visual QA.",
+      "الحسابات والمعاملات والميزانيات والتحليلات في تجربة Flutter مترابطة، مع فحوصات بصرية آلية."
+    ],
+    "contribution": [
+      "Flutter implementation · Clean Architecture · Visual QA",
+      "تنفيذ Flutter · Clean Architecture · فحص بصري آلي"
+    ],
+    "note": [
+      "Engineering demo · Figma Community design reference",
+      "نموذج هندسي · التصميم المرجعي من Figma Community"
+    ],
+    "screens": [
+      [
+        "assets/images/brees/home_dashboard.webp",
+        "Brees finance dashboard"
+      ],
+      [
+        "assets/images/brees/budgets.webp",
+        "Brees active budgets"
+      ]
+    ],
+    "visible": true,
+    "order": 2,
+    "url": "https://husseinabozina.github.io/app-showroom/projects/brees/"
+  },
+  {
+    "slug": "healthtrack",
+    "name": "HealthTrack",
+    "category": [
+      "Healthcare",
+      "الرعاية الصحية"
+    ],
+    "headline": [
+      "Care, connected from discovery to appointment.",
+      "رحلة رعاية مترابطة، من البحث للحجز."
+    ],
+    "description": [
+      "Doctor discovery, scheduling and medical records, built around reusable screens and a replaceable data layer.",
+      "اكتشاف الأطباء والمواعيد والسجلات الطبية، بواجهات قابلة لإعادة الاستخدام وطبقة بيانات قابلة للاستبدال."
+    ],
+    "contribution": [
+      "Flutter implementation · Repository boundaries · Regression tests",
+      "تنفيذ Flutter · فصل طبقات البيانات · اختبارات الانحدار"
+    ],
+    "note": [
+      "Local-data demo · Figma Community design reference",
+      "نموذج ببيانات محلية · التصميم المرجعي من Figma Community"
+    ],
+    "screens": [
+      [
+        "assets/images/healthtrack/02-specialties.webp",
+        "HealthTrack specialties"
+      ],
+      [
+        "assets/images/healthtrack/05-schedule.webp",
+        "HealthTrack appointment scheduling"
+      ]
+    ],
+    "visible": true,
+    "order": 3,
+    "url": "https://husseinabozina.github.io/app-showroom/projects/healthtrack/"
+  }
+]

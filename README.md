@@ -1,36 +1,31 @@
-# Hussein Portfolio V6
+# Hussein Abozina — Personal Portfolio V7
 
-This version freezes the current visual direction and moves the site into a production-ready structure.
+A portable English/Arabic personal portfolio, rebuilt from the supplied V6 archive. The personal site introduces Hussein, his experience and three selected projects. The separate [App Showroom](https://husseinabozina.github.io/app-showroom/) contains the full project stories and evidence.
 
-## What changed
-- Real image files live in `assets/images/` instead of giant inline base64 strings.
-- Shared CSS is in `assets/styles.css`.
-- Shared JS (language, mobile menu, reveal) is in `assets/app.js`.
-- Each main project now has a dedicated, shareable case-study page in `projects/`.
-- Homepage case-study CTAs link to those pages instead of opening a modal.
-- Basic SEO/OpenGraph metadata and Person structured data are included.
-- Qurany's Mushaf screenshot is the supplied original image and is not edited.
+## Preview
 
-## Main contact
-`husseinabozina22@gmail.com`
+Open `index.html` directly, or run `npm run dev` and visit http://localhost:4181/. Python 3 is the only build/server requirement; npm is an optional command shortcut. There are no installed packages, remote fonts, API keys or backend services.
 
-## To swap a project
-1. Put the replacement screenshots in `assets/images/`.
-2. Edit the matching project section in `index.html`.
-3. Edit or replace the matching file in `projects/`.
-4. Keep claims limited to facts you can prove.
+## Edit and rebuild
 
-## Before publishing
-- Add your final LinkedIn/GitHub URLs if wanted.
-- Add a real domain, then add a canonical URL and sitemap.
-- Add Store links only after verifying the live URLs.
-- Run a final mobile/desktop visual pass after your own visual edits.
+- `content/profile.json`: contact email, CV, GitHub and showroom destinations.
+- `content/projects.json`: the three curated homepage projects, text in English/Arabic, images and destinations. Use `visible` and `order` to control selection. Keep the homepage to three projects; publish the full collection in the showroom.
+- `content/earlier-projects.json`: the four preserved V6 case-study routes.
+- `scripts/build.py`: shared page template and bilingual profile/experience copy.
+- `assets/styles.css`: visual system, responsive layouts and RTL styling.
+- `assets/app.js`: language persistence, accessible mobile navigation and anchor focus.
+- `assets/docs/Hussein_Abozina_CV.pdf`: the supplied V2 PDF, unchanged.
 
+After editing content, run `npm run build` then `npm test` (or `python3 scripts/build.py` and `python3 scripts/verify.py`). The resulting HTML is pre-rendered and can be hosted as static files. Essential content and links work without JavaScript. Language changes use local storage when available, with a safe fallback when storage is blocked.
 
-## Recruiter layer added in V6
-- Full professional name: Hussein Abozina
-- 5 years hands-on Flutter experience
-- Efadah professional experience: May 2024 - Present
-- Recruiter stats, experience timeline, education, GitHub, email and downloadable CV
-- Current profile visual uses the HA identity mark. Replace it with a real portrait later if desired; no fake/AI portrait is used.
-- CV email updated to husseinabozina22@gmail.com.
+## Images and factual boundaries
+
+MyShop, Brees and HealthTrack use actual app captures copied from the existing showroom. They are independent engineering demonstrations, not claimed production services. Brees and HealthTrack retain attribution to their Figma Community design references. MyShop checkout is explicitly Sandbox. See `docs/CONTENT-SOURCES.md`.
+
+The old project URLs remain functional with the updated shared design; they do not crowd the homepage. The original Mushaf image is preserved byte-for-byte. Fonts are local Manrope files under the included SIL Open Font License; Arabic uses system fonts.
+
+## Delivery and hosting
+
+This version is a separate local Git repository with incremental commits. It has no GitHub remote and is not published. The ready-to-open ZIP includes the source and built pages. To publish later, upload the website files to a static host or connect this repository to GitHub Pages. Do not include `.git` or internal review notes in a public upload. Set a canonical URL after choosing the real hosting URL; no fictitious domain is embedded.
+
+The separate app-showroom repository and deployment were not modified by this work.
