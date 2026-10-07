@@ -1,0 +1,251 @@
+[
+  {
+    "id": "overdeal",
+    "file": "overdeal.html",
+    "title": "OverDeal",
+    "type_en": "Product platform",
+    "type_ar": "منصة منتجات",
+    "desc_en": "An Arabic-first mobile platform for presenting ideas and projects, reviewing opportunities, and managing structured requests.",
+    "desc_ar": "منصة موبايل عربية لعرض الأفكار والمشروعات واستعراض الفرص وإدارة الطلبات بشكل منظم.",
+    "tags": [
+      "Flutter",
+      "Arabic RTL",
+      "Product flows",
+      "Structured forms"
+    ],
+    "images": [
+      [
+        "overdeal-discovery.webp",
+        "OverDeal discovery screen"
+      ],
+      [
+        "overdeal-account.webp",
+        "OverDeal account screen"
+      ]
+    ],
+    "sections_en": [
+      [
+        "Product need",
+        "Make a broad idea/project platform understandable on mobile, with clear paths from discovery to detail and request-related actions."
+      ],
+      [
+        "Flows visible in the product",
+        "Discovery and home content, project/request forms, project detail content, order/request management and account controls."
+      ],
+      [
+        "Engineering focus",
+        "Reusable Flutter UI, Arabic/RTL behavior, structured form states and integration-ready product flows."
+      ],
+      [
+        "Evidence in this case study",
+        "The visuals are taken from the real product materials you supplied. No usage or business metrics are claimed here."
+      ]
+    ],
+    "sections_ar": [
+      [
+        "احتياج المنتج",
+        "تقديم منصة واسعة للأفكار والمشروعات على الموبايل بشكل واضح، من الاستكشاف إلى التفاصيل والإجراءات المرتبطة بالطلبات."
+      ],
+      [
+        "التدفقات الظاهرة في المنتج",
+        "الرئيسية والاستكشاف، نماذج المشروع والطلب، تفاصيل المشروع، إدارة الطلبات والحساب."
+      ],
+      [
+        "التركيز الهندسي",
+        "واجهات Flutter قابلة لإعادة الاستخدام، سلوك عربي وRTL، حالات نماذج منظمة وتدفقات جاهزة للتكامل."
+      ],
+      [
+        "الدليل في دراسة الحالة",
+        "الصور مأخوذة من مواد المنتج الحقيقية التي وفرتها. لا توجد أرقام استخدام أو نتائج تجارية مختلقة."
+      ]
+    ]
+  },
+  {
+    "id": "lamsa",
+    "file": "lamsa-latifa.html",
+    "title": "Lamsa Latifa",
+    "type_en": "Service booking",
+    "type_ar": "حجز خدمات",
+    "desc_en": "A beauty services and products experience centered on a continuous Arabic-first booking journey.",
+    "desc_ar": "تجربة عربية لخدمات ومنتجات التجميل تتمحور حول رحلة حجز متصلة وواضحة.",
+    "tags": [
+      "Flutter",
+      "Booking",
+      "Arabic RTL",
+      "Location"
+    ],
+    "images": [
+      [
+        "lamsa-home.webp",
+        "Lamsa Latifa services home screen"
+      ],
+      [
+        "lamsa-booking.webp",
+        "Lamsa Latifa booking screen"
+      ]
+    ],
+    "sections_en": [
+      [
+        "Product need",
+        "Keep service discovery and booking simple even when the user must choose a service, date, time, address and other booking details."
+      ],
+      [
+        "Flows visible in the product",
+        "Service categories, service details, booking date/time selection and address/location inputs."
+      ],
+      [
+        "UX focus",
+        "A clear progression from browsing to booking, with Arabic-first presentation and readable form hierarchy."
+      ],
+      [
+        "Evidence in this case study",
+        "The screens are from the actual application materials supplied for the portfolio; no fabricated outcomes are added."
+      ]
+    ],
+    "sections_ar": [
+      [
+        "احتياج المنتج",
+        "تبسيط اكتشاف الخدمات والحجز رغم تعدد المدخلات مثل الخدمة والتاريخ والوقت والعنوان وتفاصيل الحجز."
+      ],
+      [
+        "التدفقات الظاهرة في المنتج",
+        "تصنيفات الخدمات، تفاصيل الخدمة، اختيار تاريخ ووقت الحجز والعنوان/الموقع."
+      ],
+      [
+        "تركيز UX",
+        "انتقال واضح من الاستكشاف إلى الحجز، مع عرض عربي أولًا وهرمية نماذج مقروءة."
+      ],
+      [
+        "الدليل في دراسة الحالة",
+        "الشاشات من مواد التطبيق الفعلية التي وفرتها، بدون إضافة نتائج أو أرقام غير موثقة."
+      ]
+    ]
+  },
+  {
+    "id": "jabhamaeak",
+    "file": "jabhamaeak.html",
+    "title": "Jabhamaeak",
+    "type_en": "Delivery & rides",
+    "type_ar": "توصيل ورحلات",
+    "desc_en": "An Arabic-first experience for upcoming trips, delivery requests, city-to-city details and personal account management.",
+    "desc_ar": "تجربة عربية للرحلات القادمة وطلبات التوصيل وبيانات التنقل بين المدن وإدارة الحساب.",
+    "tags": [
+      "Flutter",
+      "Arabic RTL",
+      "Order forms",
+      "Trips"
+    ],
+    "images": [
+      [
+        "jabhamaeak-trips.webp",
+        "Jabhamaeak upcoming trips screen"
+      ],
+      [
+        "jabhamaeak-profile.webp",
+        "Jabhamaeak profile screen"
+      ]
+    ],
+    "sections_en": [
+      [
+        "Product need",
+        "Make recurring trip and delivery tasks easy to scan and complete without losing the context of route, request or profile information."
+      ],
+      [
+        "Flows visible in the product",
+        "Upcoming trip cards, creation/edit forms, city and vehicle information, profile data, wallet and delivery request areas."
+      ],
+      [
+        "UX focus",
+        "Readable Arabic forms, clear grouping and navigation that supports repeated everyday actions."
+      ],
+      [
+        "Evidence in this case study",
+        "The screens are extracted from the product visuals you supplied for this portfolio."
+      ]
+    ],
+    "sections_ar": [
+      [
+        "احتياج المنتج",
+        "جعل مهام الرحلات والتوصيل المتكررة سهلة القراءة والتنفيذ مع الحفاظ على سياق الرحلة والطلب وبيانات الحساب."
+      ],
+      [
+        "التدفقات الظاهرة في المنتج",
+        "بطاقات الرحلات القادمة، نماذج الإنشاء والتعديل، بيانات المدن والسيارة، الملف الشخصي والمحفظة وطلبات التوصيل."
+      ],
+      [
+        "تركيز UX",
+        "نماذج عربية مقروءة وتجميع واضح وتنقل مناسب للمهام اليومية المتكررة."
+      ],
+      [
+        "الدليل في دراسة الحالة",
+        "الشاشات مستخرجة من المواد الفعلية للتطبيق التي وفرتها لهذا الـPortfolio."
+      ]
+    ]
+  },
+  {
+    "id": "qurany",
+    "file": "qurany.html",
+    "title": "Qurany",
+    "type_en": "Personal product",
+    "type_ar": "منتج شخصي",
+    "desc_en": "An Arabic-first Islamic companion that combines prayer context, Quran access, adhkar and tasbih in one calm mobile product.",
+    "desc_ar": "منتج إسلامي عربي يجمع سياق الصلاة والوصول للقرآن والأذكار والتسبيح في تجربة موبايل هادئة.",
+    "tags": [
+      "Flutter",
+      "Arabic RTL",
+      "Quran",
+      "Tasbih",
+      "Dark mode"
+    ],
+    "images": [
+      [
+        "qurany-home-cairo.jpg",
+        "Qurany home screen"
+      ],
+      [
+        "qurany-splash.jpg",
+        "Qurany splash screen"
+      ],
+      [
+        "qurany-mushaf-original.jpg",
+        "Original Qurany Mushaf screenshot"
+      ]
+    ],
+    "sections_en": [
+      [
+        "Product need",
+        "Bring several frequently used Islamic utilities into one product without making the home screen feel overloaded."
+      ],
+      [
+        "Flows visible in the product",
+        "Prayer context, location, Quran access, adhkar, tasbih, settings and dark-mode presentation."
+      ],
+      [
+        "UX focus",
+        "Arabic-first hierarchy and quick access to repeated daily actions while keeping the interface calm."
+      ],
+      [
+        "Content integrity",
+        "The Mushaf screenshot is the original image supplied from the app. It is displayed unchanged; the Quran text is not regenerated or edited."
+      ]
+    ],
+    "sections_ar": [
+      [
+        "احتياج المنتج",
+        "جمع عدة أدوات إسلامية متكررة الاستخدام في منتج واحد بدون أن تصبح الصفحة الرئيسية مزدحمة."
+      ],
+      [
+        "التدفقات الظاهرة في المنتج",
+        "سياق الصلاة والموقع والوصول للقرآن والأذكار والتسبيح والإعدادات والوضع الليلي."
+      ],
+      [
+        "تركيز UX",
+        "هرمية عربية أولًا ووصول سريع للأفعال اليومية المتكررة مع الحفاظ على هدوء الواجهة."
+      ],
+      [
+        "سلامة المحتوى",
+        "صورة المصحف هي الصورة الأصلية التي وفرتها من التطبيق وتُعرض بدون تغيير؛ لم يتم إعادة توليد أو تعديل نص القرآن."
+      ]
+    ]
+  }
+]
