@@ -20,7 +20,7 @@ After editing content, run `npm run build` then `npm test` (or `python3 scripts/
 
 ## Images and factual boundaries
 
-MyShop, Brees and HealthTrack use actual app captures copied from the existing showroom. They are independent engineering demonstrations, not claimed production services. Brees and HealthTrack retain attribution to their Figma Community design references. MyShop checkout is explicitly Sandbox. See `docs/CONTENT-SOURCES.md`.
+MyShop, Brees and Etzan use actual app captures. They are independent engineering projects, not claimed production services. Brees retains attribution to its Figma Community design reference. MyShop checkout is explicitly Sandbox. Etzan includes original Arabic-first product design and Supabase client integrations; its showroom page explains the Android preview and backend dependencies. HealthTrack remains available in the wider showroom. See `docs/CONTENT-SOURCES.md`.
 
 The old project URLs remain functional with the updated shared design; they do not crowd the homepage. The original Mushaf image is preserved byte-for-byte. Fonts are local Manrope files under the included SIL Open Font License; Arabic uses system fonts.
 
@@ -36,4 +36,4 @@ To work from another computer, clone the repository, edit the content or design,
 
 The ready-to-open ZIP includes source and built pages. `.vercel`, `.git`, generated `dist` and local environment files should stay out of shared ZIP archives.
 
-The separate app-showroom repository and deployment were not modified by this work.
+The separate app-showroom repository contains the complete project stories; its Etzan page is linked from this portfolio.

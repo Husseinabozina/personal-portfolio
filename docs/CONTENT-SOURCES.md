@@ -29,3 +29,7 @@ These are complementary engineering projects, not three production claims. Publi
 - AI-Augmented Engineering is a disciplined delivery workflow, not a new job title. The professional identity remains Mobile Software Engineer, with Flutter/Dart at its core.
 - The actual Efadah job title remains Flutter Developer, as stated in V3. That historical role does not replace the broader professional identity.
 - The primary hero action now opens the separate Apps & Projects Showcase. The existing three-project selection and all visual styling remain unchanged; full project details are delegated to the showroom.
+
+## Etzan — October 8, 2026
+
+Replaces HealthTrack in the three-project homepage selection; HealthTrack remains in the independent showroom. Etzan adds original Arabic-first product design, personal-growth journeys and Supabase client integration alongside MyShop commerce and Brees finance. Source: `Husseinabozina/ettzan` at `7acc26b2c916378469582f7a43a6b067e45c2751`, README, implementation and screenshot provenance. Guest home and coach discovery PNGs are copied byte-for-byte from `docs/showcase/assets/screens/`. The card links to the detailed showroom page, which explains service dependencies, unfinished payment integration and the debug-signed Android preview. No store release, native SwiftUI work or backend ownership is inferred from this Flutter project.

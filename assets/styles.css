@@ -504,6 +504,9 @@ button:focus-visible {
 .healthtrack {
   --tone: #dfedef;
 }
+.etzan {
+  --tone: #d8eeea;
+}
 .media-heading {
   display: flex;
   justify-content: space-between;

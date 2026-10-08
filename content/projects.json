@@ -2,7 +2,10 @@
   {
     "slug": "myshop",
     "name": "MyShop",
-    "category": ["Commerce", "التجارة الإلكترونية"],
+    "category": [
+      "Commerce",
+      "التجارة الإلكترونية"
+    ],
     "headline": [
       "A storefront with the whole journey in mind.",
       "تجربة تسوّق تهتم بكل خطوة."
@@ -15,10 +18,19 @@
       "Flutter product engineering · Firebase REST · Payment recovery",
       "تطوير Flutter · ربط Firebase REST · استعادة حالة الدفع"
     ],
-    "note": ["Independent demo · Sandbox payments", "مشروع مستقل · دفع تجريبي"],
+    "note": [
+      "Independent demo · Sandbox payments",
+      "مشروع مستقل · دفع تجريبي"
+    ],
     "screens": [
-      ["assets/images/myshop/home.webp", "MyShop storefront"],
-      ["assets/images/myshop/product.webp", "MyShop product details"]
+      [
+        "assets/images/myshop/home.webp",
+        "MyShop storefront"
+      ],
+      [
+        "assets/images/myshop/product.webp",
+        "MyShop product details"
+      ]
     ],
     "visible": true,
     "order": 1,
@@ -27,7 +39,10 @@
   {
     "slug": "brees",
     "name": "Brees",
-    "category": ["Personal finance", "التمويل الشخصي"],
+    "category": [
+      "Personal finance",
+      "التمويل الشخصي"
+    ],
     "headline": [
       "Everyday money, made easier to navigate.",
       "إدارة المال اليومي، بتجربة أوضح."
@@ -45,45 +60,54 @@
       "نموذج هندسي · التصميم المرجعي من Figma Community"
     ],
     "screens": [
-      ["assets/images/brees/home_dashboard.webp", "Brees finance dashboard"],
-      ["assets/images/brees/budgets.webp", "Brees active budgets"]
+      [
+        "assets/images/brees/home_dashboard.webp",
+        "Brees finance dashboard"
+      ],
+      [
+        "assets/images/brees/budgets.webp",
+        "Brees active budgets"
+      ]
     ],
     "visible": true,
     "order": 2,
     "url": "https://husseinabozina.github.io/app-showroom/projects/brees/"
   },
   {
-    "slug": "healthtrack",
-    "name": "HealthTrack",
-    "category": ["Healthcare", "الرعاية الصحية"],
+    "slug": "etzan",
+    "name": "Etzan · اتزان",
+    "category": [
+      "Personal growth",
+      "النمو الشخصي"
+    ],
     "headline": [
-      "Care, connected from discovery to appointment.",
-      "رحلة رعاية مترابطة، من البحث للحجز."
+      "Small steps. A more intentional day.",
+      "خطوات صغيرة. يوم أكثر اتزانًا."
     ],
     "description": [
-      "Doctor discovery, scheduling and medical records, built around reusable screens and a replaceable data layer.",
-      "اكتشاف الأطباء والمواعيد والسجلات الطبية، بواجهات قابلة لإعادة الاستخدام وطبقة بيانات قابلة للاستبدال."
+      "Coach discovery, goals, daily habits and personal progress, brought together in an Arabic-first mobile experience.",
+      "اكتشاف المدربين، والأهداف، والعادات اليومية ومتابعة التقدّم في تجربة موبايل تبدأ من المستخدم العربي."
     ],
     "contribution": [
-      "Flutter implementation · Repository boundaries · Regression tests",
-      "تنفيذ Flutter · فصل طبقات البيانات · اختبارات الانحدار"
+      "Product design · Flutter engineering · Supabase integration",
+      "تصميم المنتج · هندسة Flutter · تكامل Supabase"
     ],
     "note": [
-      "Local-data demo · Figma Community design reference",
-      "نموذج ببيانات محلية · التصميم المرجعي من Figma Community"
+      "Independent project · Android preview available",
+      "مشروع مستقل · نسخة Android للتجربة"
     ],
     "screens": [
       [
-        "assets/images/healthtrack/02-specialties.webp",
-        "HealthTrack specialties"
+        "assets/images/etzan/guest-home.png",
+        "Etzan Arabic guest home"
       ],
       [
-        "assets/images/healthtrack/05-schedule.webp",
-        "HealthTrack appointment scheduling"
+        "assets/images/etzan/coaches.png",
+        "Etzan coach discovery"
       ]
     ],
     "visible": true,
     "order": 3,
-    "url": "https://husseinabozina.github.io/app-showroom/projects/healthtrack/"
+    "url": "https://husseinabozina.github.io/app-showroom/projects/etzan/"
   }
 ]

@@ -16,3 +16,7 @@ Limits: responsive checks use browser viewport emulation, not physical devices. 
 Updated the hero, About, independent experience, capabilities/skills, global professional subtitle, page title and structured metadata. Flutter/Dart remains the strongest specialization; native experience is hands-on, Android is explicitly under development, backend ownership is limited to an end-to-end project, and AI-Augmented Engineering describes a review-and-verification workflow. Efadah's actual Flutter Developer role is preserved. The primary hero action opens the separate showcase; the existing three selected projects remain unchanged.
 
 The supplied V3 PDF replaces the download byte-for-byte, with an updated recorded SHA-256 and cache-versioned links. Build, local page/link/asset validation and JavaScript syntax checks pass. Existing CSS and project catalogs are unchanged. Desktop 1280px and narrow 320px English/Arabic preview checks show the new identity and CTA without horizontal overflow. No redesign or new project-detail content was introduced.
+
+## Etzan selection — October 8, 2026
+
+Preserved the incoming Qurani case-study update from main before editing. Homepage remains three projects: MyShop, Brees and Etzan. Static publication checks passed; CV and supplied Mushaf hashes remain unchanged. Etzan screen images loaded in browser; English/Arabic card content and RTL layout reviewed at desktop and 390px without document overflow. Card points to the separate showroom story.
