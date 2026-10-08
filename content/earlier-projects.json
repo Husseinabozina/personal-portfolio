@@ -185,17 +185,19 @@
   {
     "id": "qurany",
     "file": "qurany.html",
-    "title": "Qurany",
+    "title": "Qurani",
     "type_en": "Personal product",
     "type_ar": "منتج شخصي",
-    "desc_en": "An Arabic-first Islamic companion that combines prayer context, Quran access, adhkar and tasbih in one calm mobile product.",
-    "desc_ar": "منتج إسلامي عربي يجمع سياق الصلاة والوصول للقرآن والأذكار والتسبيح في تجربة موبايل هادئة.",
+    "desc_en": "A thoughtful Arabic-first Islamic companion bringing prayer times, Quran reading, daily adhkar, tasbih and Qibla guidance into one calm Flutter experience.",
+    "desc_ar": "تطبيق إسلامي عربي يجمع مواقيت الصلاة، وقراءة القرآن، والأذكار، والتسبيح، واتجاه القبلة في تجربة Flutter هادئة وواضحة.",
     "tags": [
       "Flutter",
       "Arabic RTL",
+      "Prayer times",
       "Quran",
+      "Adhkar",
       "Tasbih",
-      "Dark mode"
+      "Qibla"
     ],
     "images": [
       [
@@ -213,38 +215,38 @@
     ],
     "sections_en": [
       [
-        "Product need",
-        "Bring several frequently used Islamic utilities into one product without making the home screen feel overloaded."
+        "Everyday purpose",
+        "Put the essential daily worship tools within easy reach, with prayer timing and location context visible at a glance."
       ],
       [
-        "Flows visible in the product",
-        "Prayer context, location, Quran access, adhkar, tasbih, settings and dark-mode presentation."
+        "What the app includes",
+        "Prayer countdown and timings, Quran pages, daily adhkar, tasbih counter, Qibla compass and an Arabic-first introduction."
       ],
       [
-        "UX focus",
-        "Arabic-first hierarchy and quick access to repeated daily actions while keeping the interface calm."
+        "Experience design",
+        "Calm visual hierarchy, readable Arabic UI and direct navigation to the actions people repeat throughout the day."
       ],
       [
-        "Content integrity",
-        "The Mushaf screenshot is the original image supplied from the app. It is displayed unchanged; the Quran text is not regenerated or edited."
+        "Screen authenticity",
+        "These gallery captures are preserved from the portfolio’s earlier app materials. Quran page imagery remains unchanged."
       ]
     ],
     "sections_ar": [
       [
-        "احتياج المنتج",
-        "جمع عدة أدوات إسلامية متكررة الاستخدام في منتج واحد بدون أن تصبح الصفحة الرئيسية مزدحمة."
+        "فكرة التطبيق",
+        "جمع الأدوات اليومية للعبادة في مكان واحد، مع إظهار مواقيت الصلاة والوقت المتبقي والموقع بوضوح."
       ],
       [
-        "التدفقات الظاهرة في المنتج",
-        "سياق الصلاة والموقع والوصول للقرآن والأذكار والتسبيح والإعدادات والوضع الليلي."
+        "أهم الأقسام",
+        "مواقيت الصلاة والعدّ التنازلي، صفحات المصحف، الأذكار اليومية، السبحة، بوصلة القبلة، وشاشات تعريف عربية."
       ],
       [
-        "تركيز UX",
-        "هرمية عربية أولًا ووصول سريع للأفعال اليومية المتكررة مع الحفاظ على هدوء الواجهة."
+        "تجربة الاستخدام",
+        "ترتيب بصري هادئ، وكتابة عربية مقروءة، ووصول سريع للمهام المتكررة على مدار اليوم."
       ],
       [
-        "سلامة المحتوى",
-        "صورة المصحف هي الصورة الأصلية التي وفرتها من التطبيق وتُعرض بدون تغيير؛ لم يتم إعادة توليد أو تعديل نص القرآن."
+        "أصالة الصور",
+        "صور المعرض محفوظة من النسخة السابقة الموجودة في البورتفوليو، وصورة المصحف لم تُعدَّل."
       ]
     ]
   }
