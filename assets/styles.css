@@ -504,6 +504,9 @@ button:focus-visible {
 .healthtrack {
   --tone: #dfedef;
 }
+.mahami {
+  --tone: #e8defa;
+}
 .etzan {
   --tone: #d8eeea;
 }

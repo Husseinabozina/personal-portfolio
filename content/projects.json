@@ -37,41 +37,41 @@
     "url": "https://husseinabozina.github.io/app-showroom/projects/myshop/"
   },
   {
-    "slug": "brees",
-    "name": "Brees",
+    "slug": "mahami",
+    "name": "Mahami · مهامي",
     "category": [
-      "Personal finance",
-      "التمويل الشخصي"
+      "Native iOS & Android",
+      "Native iOS وAndroid"
     ],
     "headline": [
-      "Everyday money, made easier to navigate.",
-      "إدارة المال اليومي، بتجربة أوضح."
+      "One product. Two native implementations.",
+      "منتج واحد. تنفيذ Native لكل منصة."
     ],
     "description": [
-      "Accounts, transactions, budgets and insights connected in one Flutter experience, with automated visual QA.",
-      "الحسابات والمعاملات والميزانيات والتحليلات في تجربة Flutter مترابطة، مع فحوصات بصرية آلية."
+      "An Arabic-first task and project manager with priorities, calendars, local persistence and native reminders. Built separately with SwiftUI and Jetpack Compose.",
+      "إدارة مهام ومشاريع بواجهة عربية، وأولويات وتقويم وحفظ محلي وتذكيرات. تنفيذ مستقل بـSwiftUI وJetpack Compose."
     ],
     "contribution": [
-      "Flutter implementation · Clean Architecture · Visual QA",
-      "تنفيذ Flutter · Clean Architecture · فحص بصري آلي"
+      "SwiftUI · SwiftData · Compose · Room · Personal sync",
+      "SwiftUI · SwiftData · Compose · Room · مزامنة شخصية"
     ],
     "note": [
-      "Engineering demo · Figma Community design reference",
-      "نموذج هندسي · التصميم المرجعي من Figma Community"
+      "In development · Screens from Android",
+      "قيد التطوير · الصور من Android"
     ],
     "screens": [
       [
-        "assets/images/brees/home_dashboard.webp",
-        "Brees finance dashboard"
+        "assets/images/mahami/home.jpg",
+        "Mahami Android home"
       ],
       [
-        "assets/images/brees/budgets.webp",
-        "Brees active budgets"
+        "assets/images/mahami/tasks.jpg",
+        "Mahami Android tasks"
       ]
     ],
     "visible": true,
     "order": 2,
-    "url": "https://husseinabozina.github.io/app-showroom/projects/brees/"
+    "url": "https://husseinabozina.github.io/app-showroom/projects/mahami/"
   },
   {
     "slug": "etzan",

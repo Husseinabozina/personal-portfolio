@@ -20,3 +20,7 @@ The supplied V3 PDF replaces the download byte-for-byte, with an updated recorde
 ## Etzan selection — October 8, 2026
 
 Preserved the incoming Qurani case-study update from main before editing. Homepage remains three projects: MyShop, Brees and Etzan. Static publication checks passed; CV and supplied Mushaf hashes remain unchanged. Etzan screen images loaded in browser; English/Arabic card content and RTL layout reviewed at desktop and 390px without document overflow. Card points to the separate showroom story.
+
+## Mahami selection — October 8, 2026
+
+Preserved incoming Qurani update f0ecc8a. Static publication validation passed; CV and original Mushaf hashes unchanged. Homepage remains three projects: MyShop, Mahami and Etzan. Mahami hero and card use actual Android screenshots; native platform implementations are described separately. Both images loaded; English/Arabic RTL content reviewed at 390px and no document overflow measured at 390px/320px. No personal-portfolio layout redesign.
