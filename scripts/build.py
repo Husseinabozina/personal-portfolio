@@ -62,9 +62,9 @@ body = f'''<main id="main">
 <a class="qurani-feature-link" href="projects/qurany.html" aria-label="Explore Qurani case study">
   <span class="qurani-feature-emblem" lang="ar" aria-hidden="true">ق</span>
   <span class="qurani-feature-copy">
-    <span class="qurani-feature-overline">${t('FROM MY PERSONAL PROJECTS','من مشاريعي الشخصية')}</span>
-    <strong>${t('Qurani — a calmer daily companion','قرآني — رفيق يومي بروح هادئة')}</strong>
-    <span class="qurani-feature-caption">${t('Prayer times · Quran · Adhkar · Tasbih · Qibla','مواقيت الصلاة · القرآن · الأذكار · التسبيح · القبلة')}</span>
+    <span class="qurani-feature-overline">{t('FROM MY PERSONAL PROJECTS','من مشاريعي الشخصية')}</span>
+    <strong>{t('Qurani — a calmer daily companion','قرآني — رفيق يومي بروح هادئة')}</strong>
+    <span class="qurani-feature-caption">{t('Prayer times · Quran · Adhkar · Tasbih · Qibla','مواقيت الصلاة · القرآن · الأذكار · التسبيح · القبلة')}</span>
   </span>
   <span class="qurani-feature-arrow" aria-hidden="true">↗</span>
 </a></section>
@@ -89,28 +89,33 @@ for p in earlier:
     case = f'''<main id="main" class="case-page shell">{link('../index.html#work','Back to selected work','العودة للأعمال المختارة','text-link')}<section class="case-intro"><p class="eyebrow">{t('EARLIER WORK / '+p['type_en'],'أعمال سابقة / '+p['type_ar'])}</p><h1>{e(p['title'])}</h1>{t(p['desc_en'],p['desc_ar'],'p','lead')}{boundary}{link(profile['showroom'],'Explore the latest app collection','شاهد أحدث مجموعة تطبيقات','button button-dark')}</section><section class="case-gallery" aria-label="Project screenshots">{gallery}</section><section class="case-notes">{sections}</section><div class="case-end">{link('../index.html#contact','Talk about a mobile project','تواصل بخصوص مشروع موبايل','button button-dark')}</div></main>'''
     if p['id'] == 'qurany':
         case = f'''<main id="main" class="case-page shell qurani-case">
-        ${link('../index.html#work','Back to selected work','العودة للأعمال المختارة','text-link')}
+        {link('../index.html#work','Back to selected work','العودة للأعمال المختارة','text-link')}
         <section class="qurani-case-hero" aria-labelledby="qurani-heading">
           <div class="qurani-case-content">
-            <p class="qurani-kicker">${t('PERSONAL FLUTTER PROJECT · ISLAMIC COMPANION','مشروع Flutter شخصي · تطبيق إسلامي')}</p>
-            <div class="qurani-wordmark" lang="ar" dir="rtl" aria-label="قرآني">قرآني<span aria-hidden="true">✦</span></div>
-            <h1 id="qurani-heading">${t('Qurani','قرآني')}</h1>
-            ${t(p['desc_en'],p['desc_ar'],'p','lead')}
-            <div class="qurani-pills" aria-label="Project highlights"><span>Flutter</span><span>Arabic RTL</span><span>Quran</span><span>Qibla</span></div>
+            <p class="qurani-kicker">{t('PERSONAL FLUTTER PROJECT · ISLAMIC COMPANION','مشروع Flutter شخصي · تطبيق إسلامي')}</p>
+            <h1 id="qurani-heading">{t('Qurani','قرآني')}</h1>
+            {t(p['desc_en'],p['desc_ar'],'p','lead')}
+            <div class="qurani-pills" aria-label="Project highlights"><span>Flutter</span><span>Arabic RTL</span><span>Prayer times</span><span>Quran</span><span>Adhkar</span><span>Qibla</span></div>
             <div class="qurani-case-actions">
-              ${link('https://github.com/Husseinabozina/muslim-app-showcase','View project on GitHub','افتح مشروع قرآني على GitHub','button button-light','target="_blank" rel="noopener noreferrer"')}
-              ${link('#screens','Explore app screens','شاهد شاشات التطبيق','text-link')}
+              {link('https://github.com/Husseinabozina/muslim-app-showcase','View Qurani on GitHub','افتح قرآني على GitHub','button qurani-hero-button','target="_blank" rel="noopener noreferrer"')}
+              {link('#screens','Explore the current app screens','شاهد شاشات التطبيق الحالية','text-link')}
             </div>
           </div>
-          <div class="qurani-case-preview"><span class="qurani-preview-glow" aria-hidden="true"></span><img src="../assets/images/qurany-home-cairo.jpg" alt="Qurani prayer dashboard screenshot from the app" width="450" height="975" fetchpriority="high"><span class="qurani-preview-caption">${t('Designed around your day','مصمم ليومك، خطوة بخطوة')}</span></div>
+          <div class="qurani-brand-panel">
+            <img src="../assets/images/qurani/brand.webp" alt="Qurani Arabic logo in emerald green and gold" width="760" height="280" fetchpriority="high">
+            <span>{t('Quran · Prayer · Adhkar · Tasbih · Qibla','القرآن · الصلاة · الأذكار · التسبيح · القبلة')}</span>
+          </div>
         </section>
         <section id="screens" class="qurani-screens-section">
-          <div class="qurani-section-heading"><span class="eyebrow">${t('EXPLORE THE EXPERIENCE','تعرّف على التجربة')}</span><h2>${t('A closer look.','نظرة أقرب.')}</h2><p>${t('Original application captures, including the Quran page preserved without alteration.','لقطات حقيقية من التطبيق، مع الحفاظ على صورة المصحف الأصلية دون أي تعديل.')}</p></div>
-          <div class="case-gallery qurani-case-gallery">{gallery}</div>
+          <div class="qurani-section-heading"><span class="eyebrow">{t('CURRENT APP EXPERIENCE','التجربة الحالية للتطبيق')}</span><h2>{t('Built around the moments that repeat every day.','مصمم للحظات اللي بتتكرر كل يوم.')}</h2><p>{t('These are the current application screens supplied for this showcase — no old mint-theme captures are used here.','دي الشاشات الحالية اللي وفرتها للتطبيق — من غير استخدام لقطات النسخة القديمة بالهوية النعناعية.')}</p></div>
+          <div class="qurani-showcase-grid">
+            <figure class="qurani-showcase-card"><img src="../assets/images/qurani/onboarding.webp" alt="Current Qurani onboarding screens" width="600" height="355" loading="lazy"><figcaption>{t('Onboarding — prayer times, Quran, adhkar and Qibla','شاشات البداية — الصلاة والقرآن والأذكار والقبلة')}</figcaption></figure>
+            <figure class="qurani-showcase-card"><img src="../assets/images/qurani/features.webp" alt="Current Qurani home, tasbih, Quran and Qibla screens" width="600" height="355" loading="lazy"><figcaption>{t('Core experience — home, tasbih, Mushaf and Qibla','التجربة الرئيسية — الرئيسية والتسبيح والمصحف والقبلة')}</figcaption></figure>
+          </div>
         </section>
         <section class="case-notes qurani-case-notes">{sections}</section>
-        <div class="qurani-case-footer">${t('From prayer times to quiet moments of remembrance.','من مواقيت الصلاة إلى لحظات الذكر والسكينة.')}${link('https://github.com/Husseinabozina/muslim-app-showcase','Explore Qurani repository','تصفح ريبو قرآني','text-link','target="_blank" rel="noopener noreferrer"')}</div>
-        <div class="case-end">${link('../index.html#contact','Talk about a mobile project','تواصل بخصوص مشروع موبايل','button button-dark')}</div>
+        <div class="qurani-case-footer"><span>{t('A focused Arabic-first product with a calm emerald, gold and cream identity.','منتج عربي بهوية هادئة تجمع الأخضر والذهبي والكريمي.')}</span>{link('https://github.com/Husseinabozina/muslim-app-showcase','Explore the public showcase','افتح معرض قرآني على GitHub','text-link','target="_blank" rel="noopener noreferrer"')}</div>
+        <div class="case-end">{link('../index.html#contact','Talk about a mobile project','تواصل بخصوص مشروع موبايل','button button-dark')}</div>
         </main>'''
     (ROOT/'projects'/p['file']).write_text(shell(p['title']+' — Hussein Abozina',p['desc_en'],case,'../'))
 print(f'Built portfolio with {len(projects)} selected projects and {len(earlier)} preserved case-study routes.')

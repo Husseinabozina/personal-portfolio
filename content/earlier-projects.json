@@ -189,7 +189,7 @@
     "type_en": "Personal product",
     "type_ar": "منتج شخصي",
     "desc_en": "A thoughtful Arabic-first Islamic companion bringing prayer times, Quran reading, daily adhkar, tasbih and Qibla guidance into one calm Flutter experience.",
-    "desc_ar": "تطبيق إسلامي عربي يجمع مواقيت الصلاة، وقراءة القرآن، والأذكار، والتسبيح، واتجاه القبلة في تجربة Flutter هادئة وواضحة.",
+    "desc_ar": "تطبيق إسلامي عربي يجمع مواقيت الصلاة وقراءة القرآن والأذكار والتسبيح واتجاه القبلة في تجربة Flutter هادئة وواضحة.",
     "tags": [
       "Flutter",
       "Arabic RTL",
@@ -201,52 +201,48 @@
     ],
     "images": [
       [
-        "qurany-home-cairo.jpg",
-        "Qurany home screen"
+        "qurani/onboarding.webp",
+        "Current Qurani onboarding screens"
       ],
       [
-        "qurany-splash.jpg",
-        "Qurany splash screen"
-      ],
-      [
-        "qurany-mushaf-original.jpg",
-        "Original Qurany Mushaf screenshot"
+        "qurani/features.webp",
+        "Current Qurani core experience"
       ]
     ],
     "sections_en": [
       [
         "Everyday purpose",
-        "Put the essential daily worship tools within easy reach, with prayer timing and location context visible at a glance."
+        "Bring the essential daily worship tools together, with prayer timing and location context available at a glance."
       ],
       [
         "What the app includes",
-        "Prayer countdown and timings, Quran pages, daily adhkar, tasbih counter, Qibla compass and an Arabic-first introduction."
+        "Prayer countdown and timings, Quran reading, daily adhkar, tasbih counter, Qibla compass and an Arabic-first onboarding flow."
       ],
       [
         "Experience design",
-        "Calm visual hierarchy, readable Arabic UI and direct navigation to the actions people repeat throughout the day."
+        "A calm emerald, gold and cream visual identity with clear Arabic hierarchy and quick access to repeated daily actions."
       ],
       [
         "Screen authenticity",
-        "These gallery captures are preserved from the portfolio’s earlier app materials. Quran page imagery remains unchanged."
+        "The visuals on this page use the current app screenshots supplied for the portfolio; no replacement UI screens were invented."
       ]
     ],
     "sections_ar": [
       [
         "فكرة التطبيق",
-        "جمع الأدوات اليومية للعبادة في مكان واحد، مع إظهار مواقيت الصلاة والوقت المتبقي والموقع بوضوح."
+        "جمع الأدوات اليومية الأساسية للعبادة في مكان واحد، مع عرض مواقيت الصلاة وسياق الموقع بشكل سريع وواضح."
       ],
       [
         "أهم الأقسام",
-        "مواقيت الصلاة والعدّ التنازلي، صفحات المصحف، الأذكار اليومية، السبحة، بوصلة القبلة، وشاشات تعريف عربية."
+        "مواقيت الصلاة والعدّ التنازلي، قراءة القرآن، الأذكار اليومية، السبحة، بوصلة القبلة وشاشات بداية عربية."
       ],
       [
         "تجربة الاستخدام",
-        "ترتيب بصري هادئ، وكتابة عربية مقروءة، ووصول سريع للمهام المتكررة على مدار اليوم."
+        "هوية هادئة بالأخضر والذهبي والكريمي، مع هرمية عربية واضحة ووصول سريع للمهام اليومية المتكررة."
       ],
       [
         "أصالة الصور",
-        "صور المعرض محفوظة من النسخة السابقة الموجودة في البورتفوليو، وصورة المصحف لم تُعدَّل."
+        "الصور المعروضة هنا هي الشاشات الحالية التي وفرتها للبورتفوليو، من غير اختلاق أو توليد واجهات بديلة."
       ]
     ]
   }
