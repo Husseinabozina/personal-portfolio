@@ -9,7 +9,7 @@ Open `index.html` directly, or run `npm run dev` and visit http://localhost:4181
 ## Edit and rebuild
 
 - `content/profile.json`: contact email, CV, GitHub and showroom destinations.
-- `content/projects.json`: the three curated homepage projects, text in English/Arabic, images and destinations. Use `visible` and `order` to control selection. Keep the homepage to three projects; publish the full collection in the showroom.
+- `content/projects.json`: the four curated homepage projects, text in English/Arabic, images and destinations. Use `visible` and `order` to control selection. Keep the homepage to four projects; publish the full collection in the showroom.
 - `content/earlier-projects.json`: the four preserved V6 case-study routes.
 - `scripts/build.py`: shared page template and bilingual profile/experience copy.
 - `assets/styles.css`: visual system, responsive layouts and RTL styling.

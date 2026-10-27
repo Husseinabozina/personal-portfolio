@@ -1,5 +1,42 @@
 [
   {
+    "slug": "miao",
+    "name": "miao · مياو",
+    "category": [
+      "Community & companionship",
+      "مجتمع ورفقة"
+    ],
+    "headline": [
+      "Little paws. Big stories.",
+      "كل قط، له حكاية."
+    ],
+    "description": [
+      "A playful Arabic-first experience for cat lovers: discover listings, save favorites and help missing cats find their way home.",
+      "تجربة عربية بروح مرحة لمحبّي القطط: اكتشف الإعلانات، احتفظ بالمفضّلة، وساعد القطط الضائعة ترجع لبيوتها."
+    ],
+    "contribution": [
+      "Product design · Flutter · Maps & connected journeys",
+      "تصميم المنتج · Flutter · الخرائط وتجارب مترابطة"
+    ],
+    "note": [
+      "Original identity & implementation · Android available",
+      "هوية وتنفيذ من تصميمي · نسخة Android متاحة"
+    ],
+    "screens": [
+      [
+        "assets/images/miao/home.jpg",
+        "miao Android home"
+      ],
+      [
+        "assets/images/miao/map.jpg",
+        "miao Android missing-cat map"
+      ]
+    ],
+    "visible": true,
+    "order": 0,
+    "url": "https://husseinabozina.github.io/app-showroom/projects/miao/"
+  },
+  {
     "slug": "myshop",
     "name": "MyShop",
     "category": [

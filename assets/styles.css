@@ -1785,3 +1785,6 @@ html[dir="rtl"] .qurani-case-hero h1 { font-family: 'Geeza Pro', Tahoma, Arial, 
   .qurani-showcase-card img { border-radius: 11px; }
   .qurani-case-footer { align-items: flex-start; flex-direction: column; font-size: 14px; }
 }
+
+/* Miao joins the existing selected-work collection. */
+.miao{--tone:#b5e2db;}

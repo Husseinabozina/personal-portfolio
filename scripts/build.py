@@ -45,7 +45,7 @@ def screens(p, base='', hero=False):
 
 def card(p, index):
     return f'''<article class="project-card {p['slug']} {'project-feature' if index == 0 else ''}">
-<div class="project-media"><div class="media-heading"><span>{t(*p['category'])}</span><span aria-hidden="true">0{index+1} / 03</span></div><a class="screen-pair" href="{e(p['url'])}" aria-label="Explore {e(p['name'])}">{screens(p)}</a><span class="media-caption">{t('Screens from the app','شاشات من التطبيق')}</span></div>
+<div class="project-media"><div class="media-heading"><span>{t(*p['category'])}</span><span aria-hidden="true">{index+1:02d} / {len(projects):02d}</span></div><a class="screen-pair" href="{e(p['url'])}" aria-label="Explore {e(p['name'])}">{screens(p)}</a><span class="media-caption">{t('Screens from the app','شاشات من التطبيق')}</span></div>
 <div class="project-copy"><div class="project-heading"><h3>{e(p['name'])}</h3>{arrow()}</div>{t(*p['headline'],tag='p',cls='project-title')}{t(*p['description'],tag='p',cls='project-description')}{t(*p['contribution'],tag='p',cls='project-contribution')}{link(p['url'],'Explore '+p['name'],'استكشف '+p['name'],'project-link')}{t(*p['note'],tag='p',cls='project-note')}</div></article>'''
 
 body = f'''<main id="main">

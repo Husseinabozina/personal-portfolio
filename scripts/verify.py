@@ -37,7 +37,7 @@ for path,page in pages.items():
         if url.fragment and dest in pages: assert url.fragment in pages[dest].ids,f'{path}: missing anchor {ref}'
 projects=json.loads((ROOT/'content/projects.json').read_text())
 visible=[p for p in projects if p.get('visible',True)]
-assert 1<=len(visible)<=3,'Keep the personal selection to at most three projects; use the showroom for the full collection.'
+assert 1<=len(visible)<=4,'Keep the owner-approved homepage selection to four projects; use the showroom for the full collection.'
 assert len({p['slug'] for p in projects})==len(projects),'Duplicate project slug'
 for project in visible:
     assert project['url'].startswith('https://husseinabozina.github.io/app-showroom/projects/')

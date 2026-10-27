@@ -39,3 +39,8 @@ Replaces HealthTrack in the three-project homepage selection; HealthTrack remain
 `task_management_native` at `f4bc915db43a10a883ea921bee62b8ae7e15b02c` now contains full local product journeys in separate Swift/SwiftUI/SwiftData and Kotlin/Compose/Room implementations, native reminders and optional manual sync. This supersedes the October 7 wording that described Android as an initial developing track. Native remains independent engineering-project experience, not a production/store-release claim. Repository verification notes are distinguished from checks performed on this website.
 
 The three curated homepage projects are now MyShop, Mahami and Etzan. Mahami replaces Brees in this short selection to provide concrete native evidence; Brees remains Featured in the independent showroom. The second hero screen points to Mahami. Home and task-list Android JPEGs are copied byte-for-byte from `docs/showcase/screenshots/`; the source provenance identifies owner-supplied fictional presentation data on October 8. Full platform/state boundaries, design attribution and implementation links live in the showroom page. Incoming Qurani content/assets from remote main were preserved before editing.
+
+
+## Miao — October 26, 2026
+
+Added at the owner's explicit request alongside all three existing selected projects; the selection is now four. The denominator is derived from the actual catalog. Home and map JPEGs are exact copies of the owner's Android captures. Copy focuses on the product and original identity, with development details linked from the app repository. The card points to the dedicated showroom story; the app's own GitHub Pages presentation provides its full Arabic/English identity and download. No existing projects or CV assets were removed.
